@@ -1,0 +1,36 @@
+{
+  "name": "images-to-pdf-package",
+  "version": "1.0.0",
+  "description": "A package to convert images to pdf ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Whirl21/images-to-pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "images",
+    "image-to-pdf",
+    "images-to-pdf"
+  ],
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.mjs"
+  },
+  "author": "Whirl21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Whirl21/images-to-pdf/issues"
+  },
+  "homepage": "https://github.com/Whirl21/images-to-pdf#readme",
+  "dependencies": {
+    "jspdf": "^2.4.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "nodemon": "^2.0.14"
+  }
+}
