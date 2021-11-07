@@ -1,6 +1,6 @@
 {
   "name": "images-to-pdf-package",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package to convert images to pdf ",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "image-to-pdf",
     "images-to-pdf"
   ],
+  "types": "./index.d.ts",
   "exports": {
     "require": "./index.js",
     "import": "./index.mjs"

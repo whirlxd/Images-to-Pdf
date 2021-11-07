@@ -1,3 +1,3 @@
-import package from "./index.js";
-const { generatePdfFromImages } = package;
+import pkg from "./index.js";
+const { generatePdfFromImages } = pkg;
 export default generatePdfFromImages;
